@@ -1,7 +1,6 @@
-# CollaborativeTeamFormation
-# OpenAttHetRL: An open source toolkit for End-to-end learning of attributed heterogeneous networks
+# Finding Collaborative Experts in Community Question Answering
 
-This repository provides a standard training and testing framework for learning the latent representations of attributed heterogeneous networks in an end-to-end way.
+This repository provides a standard training and testing framework for Finding Collaborative Experts in Community Question Answering.
 
 ## Usage
 
