@@ -23,6 +23,8 @@ from  CollaborativeTF.preprocessing import  datapreprocessing
 # run preprocessing by passing the location and dataset
 datapreprocessing.createdata("./data/","android") 
  ```
+The datasets are publicly available at https://archive.org/details/stackexchange. For each dataset, three files as  Posts.xml, Tags.xml, and Users.xml are required for the data preprocessing phase. 
+
  ##### e.g. 2 generate train and test data 
 ```python 
 #import CollaborativeTF class to run the framework
@@ -62,3 +64,4 @@ top10=CollaborativeTF.findTopKexperts(question=q,model=loadedModle,topk=10)
 print(top10)
 print("done!")
  ```
+
